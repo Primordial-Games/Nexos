@@ -1,0 +1,1093 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="SettingsUI"
+   Begin Object Class=/Script/Engine.EdGraph Name="Construct"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BndEvt__Button_0_K2Node_ComponentBoundEvent_418_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="CategoryChanged"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame Name="K2Node_SetVariableOnPersistentFrame_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_41"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Knot Name="K2Node_Knot_22"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_89"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_183"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_AddDelegate Name="K2Node_AddDelegate_5"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_85"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CustomEvent Name="K2Node_CustomEvent_9"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallDelegate Name="K2Node_CallDelegate_11"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_418"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_ExecutionSequence Name="K2Node_ExecutionSequence_0"
+      End Object
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_1"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_45"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_2961"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_5"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_25"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetAnimation Name="Init"
+      Begin Object Class=/Script/MovieScene.MovieScene Name="Init"
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_4"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_4"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_6"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_6"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_5"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_5"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatTrack Name="MovieSceneFloatTrack_1"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatSection Name="MovieSceneFloatSection_1"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_2"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_2"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_4"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_4"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_3"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_3"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_2"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_2"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatTrack Name="MovieSceneFloatTrack_0"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatSection Name="MovieSceneFloatSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_1"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_1"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_1"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_1"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_0"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_0"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'
+               End Object
+            End Object
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="CloseRequested"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_618"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=/Game/UI/Pages/GameplaySettingsPage.GameplaySettingsPage_C Name="GameplaySettingsPage"
+      End Object
+      Begin Object Class=/Game/UI/Pages/InputSettingsPage.InputSettingsPage_C Name="InputSettingsPage"
+      End Object
+      Begin Object Class=/Game/UI/Pages/AudioSettingsPage.AudioSettingsPage_C Name="AudioSettingsPage"
+      End Object
+      Begin Object Class=/Game/UI/Pages/VideoSettingsPage.VideoSettingsPage_C Name="VideoSettingsPage"
+      End Object
+      Begin Object Class=/Script/UMG.WidgetSwitcher Name="CategorySwitcher"
+         Begin Object Class=/Script/UMG.WidgetSwitcherSlot Name="WidgetSwitcherSlot_8"
+         End Object
+         Begin Object Class=/Script/UMG.WidgetSwitcherSlot Name="WidgetSwitcherSlot_7"
+         End Object
+         Begin Object Class=/Script/UMG.WidgetSwitcherSlot Name="WidgetSwitcherSlot_6"
+         End Object
+         Begin Object Class=/Script/UMG.WidgetSwitcherSlot Name="WidgetSwitcherSlot_4"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Settings"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.BackgroundBlur Name="BackgroundBlur_3"
+         Begin Object Class=/Script/UMG.BackgroundBlurSlot Name="BackgroundBlurSlot_1"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_0"
+      End Object
+      Begin Object Class=/AutoSettings/RadioSelect/VerticalRadioSelect.VerticalRadioSelect_C Name="CategorySelect"
+      End Object
+      Begin Object Class=/Script/UMG.VerticalBox Name="VerticalBox_4"
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_11"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Categories"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_7"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.BackgroundBlur Name="BackgroundBlur_2"
+         Begin Object Class=/Script/UMG.BackgroundBlurSlot Name="BackgroundBlurSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="ContentPadded"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_11"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_10"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_8"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="CloseButton"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="SettingsTitle"
+      End Object
+      Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox_1"
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2"
+         End Object
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="TitleBorder"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.VerticalBox Name="VerticalBox_0"
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_0"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_2"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_1"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_5"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_3"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_1"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="Construct"
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberName="ExecuteUbergraph_SettingsUI",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=76AEC596490A71D22CAEB6A7CB7D69DC
+         CustomProperties Pin (PinId=816C0A1740602FCE09DD938D27733FD1,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 E279D45C4BB0579A3B2A95A45470EB14,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=18FE68BA4930BA9C124788B7548DF5D7,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=DA1509AB43721F52E855C89AF0E843FE,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SKEL_SettingsUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=8EBD016A4D876D195D5B41AF7A016256,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_0"
+         CustomGeneratedFunctionName="Construct"
+         FunctionReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=011E6EB04AA5D7FF6A1A7389744D9BDB
+         CustomProperties Pin (PinId=E279D45C4BB0579A3B2A95A45470EB14,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 816C0A1740602FCE09DD938D27733FD1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      GraphGuid=D951AA924170686E28871FA49BA157AC
+   End Object
+   Begin Object Name="BndEvt__Button_0_K2Node_ComponentBoundEvent_418_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberName="ExecuteUbergraph_SettingsUI",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=EF1AABDB4FBD616D26473087549B1B4E
+         CustomProperties Pin (PinId=DF7001794F30844B18389D84A65E8886,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 6A1E1ACA41E516E499302CAE6566F6AA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=865467644521F04B8B1C4DBBAEAABF60,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=9D5026934B427B56C3B840B943AC92A2,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SKEL_SettingsUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=9B9ACA7E444928DDED2247B9E30811A0,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_0"
+         CustomGeneratedFunctionName="BndEvt__Button_0_K2Node_ComponentBoundEvent_418_OnButtonClickedEvent__DelegateSignature"
+         FunctionReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=DE7543E4449DF7DD6B16CB9458DE004E
+         CustomProperties Pin (PinId=6A1E1ACA41E516E499302CAE6566F6AA,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 DF7001794F30844B18389D84A65E8886,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      GraphGuid=391CCACB446CE9EC5F24B2A7DD74A4A3
+   End Object
+   Begin Object Name="CategoryChanged"
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberName="ExecuteUbergraph_SettingsUI",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=D4BABD6D4C6C9B042074A8ACBEA847FC
+         CustomProperties Pin (PinId=4DE75CB743858AD162225BAE0D76E7C8,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 76F181A6425B560511D01FB7056F15F2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=EE0F6A4B4E4FDF5AC4708E8A31E14287,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D1EE4B6A4C844034A2B00AB2984F5683,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SKEL_SettingsUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E11943FC4AAA9A308BA7E4BD5F038DE0,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_SetVariableOnPersistentFrame_0"
+         NodePosX=-1040
+         NodePosY=-2000
+         NodeGuid=C3B08BEB400E89D1DF44619D68AB3BF2
+         CustomProperties Pin (PinId=90FEB9374D5F4D1540006C9AF1FF5C45,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 EEF2C8CA4316D0C874EDBF95F3C1B240,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=76F181A6425B560511D01FB7056F15F2,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 4DE75CB743858AD162225BAE0D76E7C8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5AAAAF524888A9C22AB92AB20255408D,PinName="K2Node_CustomEvent_Value",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 D11738104B6E470B1FF73F818790C370,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_0"
+         CustomGeneratedFunctionName="CategoryChanged"
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=3C3BAA9D482AEAA1FD1961BFBA37D96F
+         CustomProperties Pin (PinId=EEF2C8CA4316D0C874EDBF95F3C1B240,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 90FEB9374D5F4D1540006C9AF1FF5C45,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D11738104B6E470B1FF73F818790C370,PinName="Value",Direction="EGPD_Output",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 5AAAAF524888A9C22AB92AB20255408D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="Value",PinType=(PinCategory="string"),DesiredPinDirection=EGPD_Output)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_SetVariableOnPersistentFrame'"K2Node_SetVariableOnPersistentFrame_0"'
+      Nodes(2)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      GraphGuid=95957E6748F4322E937DD5AA4579EF1E
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="EdGraphNode_Comment_41"
+         NodePosX=-160
+         NodePosY=320
+         NodeWidth=570
+         NodeHeight=379
+         NodeComment="Opening animation"
+         NodeGuid=99F9865547E6BA3C3E0472A9816C62E1
+      End Object
+      Begin Object Name="K2Node_Knot_22"
+         NodePosX=-96
+         NodePosY=416
+         NodeGuid=FE9A8FD14730FF4A4E6AA987856A6508
+         CustomProperties Pin (PinId=FB31768E4196F6ADB6C9E19F9B0D0C33,PinName="InputPin",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_ExecutionSequence_0 F874ACE9408813727E4928A541492198,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=True,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4C9381C3421768C56C20C6BF3E952457,PinName="OutputPin",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_183 5C0F8E504711AF71ADA3BB8E8BA51DCA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_89"
+         VariableReference=(MemberName="Init",bSelfContext=True)
+         NodePosX=-112
+         NodePosY=480
+         NodeGuid=61CEB5BE4616B1226BA722A7ED833BF1
+         CustomProperties Pin (PinId=EC34903D4996FB9D3F269083CB26A1E2,PinName="Init",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.WidgetAnimation"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_183 A0FB199C459682283EC3EC81A30FC46C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0052ABE14831186CD7DD7785962FAC96,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SettingsUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_183"
+         FunctionReference=(MemberName="PlayAnimation",bSelfContext=True)
+         NodePosX=96
+         NodePosY=368
+         NodeGuid=2316BF444FDDDCA21B879C978F6F913C
+         CustomProperties Pin (PinId=5C0F8E504711AF71ADA3BB8E8BA51DCA,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_Knot_22 4C9381C3421768C56C20C6BF3E952457,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7D03723A4041FC59246BF4A108A57CB8,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B64A89C246829E7BBA5B019238E15BFF,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.UserWidget"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A0FB199C459682283EC3EC81A30FC46C,PinName="InAnimation",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.WidgetAnimation"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_VariableGet_89 EC34903D4996FB9D3F269083CB26A1E2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5D78123A43B7CF0C658FAC94AC62E8FA,PinName="StartAtTime",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0.000000",AutogeneratedDefaultValue="0.000000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=00875E484E44F611A740338404E62AE4,PinName="NumLoopsToPlay",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="1",AutogeneratedDefaultValue="1",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=37FCA0F94BB9C7565B01839E4C175147,PinName="PlayMode",PinType.PinCategory="byte",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Enum'"/Script/UMG.EUMGSequencePlayMode"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="Forward",AutogeneratedDefaultValue="Forward",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7419F95041AB80DA1775E8BE4F2A7AFC,PinName="PlaybackSpeed",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="1.000000",AutogeneratedDefaultValue="1.000000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=ADCCD3A24008336F4D16D7B098C91ED8,PinName="bRestoreState",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B55042C8445A08C2535836B17A80863B,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.UMGSequencePlayer"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_AddDelegate_5"
+         DelegateReference=(MemberParent=Class'"/Script/AutoSettings.RadioSelect"',MemberName="SelectionChangedEvent")
+         NodePosX=544
+         NodePosY=880
+         NodeGuid=7E725B2F4C3581D7A1DE5682CF25E69B
+         CustomProperties Pin (PinId=972FCAD645D51F882B425E9CBCD2D8CC,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_85 E724187540C723CF6D5CA18A23530CCF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0D68E3E048EAF4C7435388965C165EBA,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AF3D4EAB4DDC960ADCBBEA98E517DC55,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "BaseMCDelegateSelfPinName", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/AutoSettings.RadioSelect"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_VariableGet_45 8C77F0F04A845DDB6B2615B42C9D2019,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F51FF04E4934F363DE909C9530716B7F,PinName="Delegate",PinFriendlyName=NSLOCTEXT("K2Node", "PinFriendlyDelegatetName", "Event"),PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Package'"/Script/AutoSettings"',MemberName="RadioSelectedSignature__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=True,PinType.bIsConst=True,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CustomEvent_9 04440A814D1102AD4ADB3D8AD46D6BE8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_85"
+         FunctionReference=(MemberParent=Class'"/Script/AutoSettings.RadioSelect"',MemberName="Select")
+         NodePosX=176
+         NodePosY=864
+         NodeGuid=6B229B96497FA56FF2A827B3EF2EFA56
+         CustomProperties Pin (PinId=3988B8604990D279A71302ABA8FA6DEF,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_ExecutionSequence_0 7BEE26304AE4935D7D53B1AB214DCE76,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E724187540C723CF6D5CA18A23530CCF,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_AddDelegate_5 972FCAD645D51F882B425E9CBCD2D8CC,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A99E64CA4C594F7C7FD7A5AA67A9CDFC,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/AutoSettings.RadioSelect"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_VariableGet_45 8C77F0F04A845DDB6B2615B42C9D2019,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=417F661B45AFC6645EDBB38F6FC58D82,PinName="Value",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CustomEvent_9"
+         CustomFunctionName="CategoryChanged"
+         NodePosX=32
+         NodePosY=1040
+         NodeGuid=87C0FAAB40035BD123571C9367A8622B
+         CustomProperties Pin (PinId=04440A814D1102AD4ADB3D8AD46D6BE8,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SettingsUI_C"',MemberName="CategoryChanged",MemberGuid=87C0FAAB40035BD123571C9367A8622B),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_AddDelegate_5 F51FF04E4934F363DE909C9530716B7F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=062B44CE4EF9D689C949B19EED18253A,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_5 098146404C3DAD8BE368F6BE807E9563,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=03CF4929467304555FAFE9A128605D58,PinName="Value",Direction="EGPD_Output",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_2961 C8004025490CD17F02BBBBBA2F48D0C3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="Value",PinType=(PinCategory="string"),DesiredPinDirection=EGPD_Output)
+      End Object
+      Begin Object Name="K2Node_CallDelegate_11"
+         DelegateReference=(MemberName="CloseRequested",MemberGuid=177D5B2C45A5D84BF90A0990CB672F97,bSelfContext=True)
+         NodePosX=64
+         NodePosY=1472
+         NodeGuid=0FCA714D4ADA45B9ABE3799D7C36C1E3
+         CustomProperties Pin (PinId=F9600EF749619E65925185B6FBB6C931,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_ComponentBoundEvent_418 6BE90D3B4282E90E67C0A78D82AB65C8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=26C72D7C4F5AC23385ED86977DB3151A,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C3582DED4D18221A6B20CC9C77478AED,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "BaseMCDelegateSelfPinName", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SettingsUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_418"
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'"/Script/UMG.Button"'
+         ComponentPropertyName="CloseButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__Button_0_K2Node_ComponentBoundEvent_418_OnButtonClickedEvent__DelegateSignature"
+         NodePosX=-240
+         NodePosY=1472
+         NodeGuid=F5C28D28472447C76AAE4F98AEA3ED4B
+         CustomProperties Pin (PinId=984A6CE74948F6CE8AE6FE9E09A37C9E,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SettingsUI_C"',MemberName="BndEvt__Button_0_K2Node_ComponentBoundEvent_418_OnButtonClickedEvent__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6BE90D3B4282E90E67C0A78D82AB65C8,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallDelegate_11 F9600EF749619E65925185B6FBB6C931,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_ExecutionSequence_0"
+         NodePosX=-688
+         NodePosY=848
+         NodeGuid=81B873FD467E8C6AFD08B58D4D9AB22F
+         CustomProperties Pin (PinId=C7C7DA814F95EFA99C36388A380534EB,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_Event_2 D66F6DEE4D7B278374208B8F2E3C48EE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F874ACE9408813727E4928A541492198,PinName="then_0",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_Knot_22 FB31768E4196F6ADB6C9E19F9B0D0C33,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7BEE26304AE4935D7D53B1AB214DCE76,PinName="then_1",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_85 3988B8604990D279A71302ABA8FA6DEF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="EdGraphNode_Comment_1"
+         NodePosX=-48
+         NodePosY=816
+         NodeWidth=904
+         NodeHeight=394
+         NodeComment="Category switching"
+         NodeGuid=262DE9594074BA2AA9FD1EAB628CCF0A
+      End Object
+      Begin Object Name="K2Node_VariableGet_45"
+         VariableReference=(MemberName="CategorySelect",bSelfContext=True)
+         NodePosY=960
+         NodeGuid=56300B57421CEF2677477DAA0901ABCE
+         CustomProperties Pin (PinId=8C77F0F04A845DDB6B2615B42C9D2019,PinName="CategorySelect",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/AutoSettings/RadioSelect/VerticalRadioSelect.VerticalRadioSelect_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_85 A99E64CA4C594F7C7FD7A5AA67A9CDFC,K2Node_AddDelegate_5 AF3D4EAB4DDC960ADCBBEA98E517DC55,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=BB84A7224BB56241410FE0B617D6A0DA,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SettingsUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_2"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         bOverrideFunction=True
+         NodePosX=-880
+         NodePosY=848
+         NodeGuid=BAAB9AD24294B6A420E6CD81E3517206
+         CustomProperties Pin (PinId=9D6D942540B159CAAC945BB15C87AB3B,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D66F6DEE4D7B278374208B8F2E3C48EE,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_ExecutionSequence_0 C7C7DA814F95EFA99C36388A380534EB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_2961"
+         bIsPureFunc=True
+         FunctionReference=(MemberParent=Class'"/Script/Engine.KismetStringLibrary"',MemberName="Conv_StringToInt")
+         NodePosX=368
+         NodePosY=1120
+         NodeGuid=DF2A77AB46896272BD05B987280430B5
+         CustomProperties Pin (PinId=1B049E8C4048DF084D7B5B9E908447A3,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/Engine.KismetStringLibrary"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultObject="/Script/Engine.Default__KismetStringLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C8004025490CD17F02BBBBBA2F48D0C3,PinName="InString",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CustomEvent_9 03CF4929467304555FAFE9A128605D58,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=019D6AFC45E582377CF6E384CFDC7A4E,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",LinkedTo=(K2Node_CallFunction_5 3DCE9875487C996603C3FE8A9840DE55,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_5"
+         FunctionReference=(MemberParent=Class'"/Script/UMG.WidgetSwitcher"',MemberName="SetActiveWidgetIndex")
+         NodePosX=608
+         NodePosY=1008
+         NodeGuid=72E7704249B74C41C725F7AC23E54ABF
+         CustomProperties Pin (PinId=098146404C3DAD8BE368F6BE807E9563,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CustomEvent_9 062B44CE4EF9D689C949B19EED18253A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A0C0886B46CCD0A0D1F9FE8B9FBC4CBD,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=87B9383C44494FD68506FEB378A2A663,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.WidgetSwitcher"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_VariableGet_25 2F35FAF44EB0F8D675FB5CAA89178B27,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3DCE9875487C996603C3FE8A9840DE55,PinName="Index",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",LinkedTo=(K2Node_CallFunction_2961 019D6AFC45E582377CF6E384CFDC7A4E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_25"
+         VariableReference=(MemberName="CategorySwitcher",bSelfContext=True)
+         NodePosX=400
+         NodePosY=1072
+         NodeGuid=CCB26E654562E8026B20AFAD41A763FE
+         CustomProperties Pin (PinId=2F35FAF44EB0F8D675FB5CAA89178B27,PinName="CategorySwitcher",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.WidgetSwitcher"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_5 87B9383C44494FD68506FEB378A2A663,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FA082B494078F4C6733D128CBE41D696,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/SettingsUI.SettingsUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/UMGEditor.WidgetGraphSchema"'
+      Nodes(0)=K2Node_VariableGet'"K2Node_VariableGet_25"'
+      Nodes(1)=K2Node_CallFunction'"K2Node_CallFunction_5"'
+      Nodes(2)=K2Node_CallFunction'"K2Node_CallFunction_2961"'
+      Nodes(3)=K2Node_Event'"K2Node_Event_2"'
+      Nodes(4)=K2Node_VariableGet'"K2Node_VariableGet_45"'
+      Nodes(5)=EdGraphNode_Comment'"EdGraphNode_Comment_1"'
+      Nodes(6)=K2Node_ExecutionSequence'"K2Node_ExecutionSequence_0"'
+      Nodes(7)=K2Node_ComponentBoundEvent'"K2Node_ComponentBoundEvent_418"'
+      Nodes(8)=K2Node_CallDelegate'"K2Node_CallDelegate_11"'
+      Nodes(9)=K2Node_CustomEvent'"K2Node_CustomEvent_9"'
+      Nodes(10)=K2Node_CallFunction'"K2Node_CallFunction_85"'
+      Nodes(11)=K2Node_AddDelegate'"K2Node_AddDelegate_5"'
+      Nodes(12)=K2Node_CallFunction'"K2Node_CallFunction_183"'
+      Nodes(13)=K2Node_VariableGet'"K2Node_VariableGet_89"'
+      Nodes(14)=K2Node_Knot'"K2Node_Knot_22"'
+      Nodes(15)=EdGraphNode_Comment'"EdGraphNode_Comment_41"'
+      bAllowDeletion=False
+      GraphGuid=66FB2AF4403012F01FB9A886993CA0D9
+   End Object
+   Begin Object Name="Init"
+      Begin Object Name="Init"
+         Begin Object Name="MovieScene2DTransformTrack_4"
+            Begin Object Name="MovieScene2DTransformSection_4"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=12000)),Values=((),()))
+               Translation(1)=(Times=((),(Value=15000)),Values=((Value=-30.000000),()))
+               Rotation=(Times=(()),Values=(()))
+               Scale(0)=(Times=(()),Values=((Value=1.000000)))
+               Scale(1)=(Times=(()),Values=((Value=1.000000)))
+               Shear(0)=(Times=(()),Values=(()))
+               Shear(1)=(Times=(()),Values=(()))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_4.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_4.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:15001
+               Signature=43D00B1B414E983634276D9B3A10DCD9
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_4"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=45A80D7C46629F0BAD5FE69BA5A21E18
+         End Object
+         Begin Object Name="MovieSceneColorTrack_6"
+            Begin Object Name="MovieSceneColorSection_6"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               RedCurve=(Times=((Value=18000)),Values=((Value=1.000000)))
+               GreenCurve=(Times=((Value=18000)),Values=((Value=1.000000)))
+               BlueCurve=(Times=((Value=18000)),Values=((Value=1.000000)))
+               AlphaCurve=(Times=((),(Value=18000)),Values=((),(Value=1.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_6.MovieSceneColorSection_6.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_6.MovieSceneColorSection_6.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:18001
+               Signature=7F9FC8AD4C7E8D4BE024639A9BD77F3B
+            End Object
+            UniqueTrackName="ContentColorAndOpacity"
+            PropertyName="ContentColorAndOpacity"
+            PropertyPath="ContentColorAndOpacity"
+            Sections(0)=MovieSceneColorSection'"MovieSceneColorSection_6"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Border:ContentColorAndOpacity", "Content Color and Opacity")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=7F600DC64605AA7ADEB34C911501123C
+         End Object
+         Begin Object Name="MovieSceneColorTrack_5"
+            Begin Object Name="MovieSceneColorSection_5"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               RedCurve=(Times=(()),Values=((Value=1.000000)))
+               GreenCurve=(Times=(()),Values=((Value=1.000000)))
+               BlueCurve=(Times=(()),Values=((Value=1.000000)))
+               AlphaCurve=(Times=((),(Value=6000),(Value=18000)),Values=((),(Tangent=(ArriveTangent=0.000056,LeaveTangent=0.000056)),(Value=1.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_5.MovieSceneColorSection_5.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_5.MovieSceneColorSection_5.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:18001
+               Signature=2BAB2F304648090DA36E5493C1D485B5
+            End Object
+            UniqueTrackName="BrushColor"
+            PropertyName="BrushColor"
+            PropertyPath="BrushColor"
+            Sections(0)=MovieSceneColorSection'"MovieSceneColorSection_5"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Border:BrushColor", "Brush Color")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=4A06AE364CB40FCE1F4E4694F0C2FB38
+         End Object
+         Begin Object Name="MovieSceneFloatTrack_1"
+            Begin Object Name="MovieSceneFloatSection_1"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               FloatCurve=(Times=((),(Value=15000)),Values=((),(Value=10.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneFloatTrack_1.MovieSceneFloatSection_1.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneFloatTrack_1.MovieSceneFloatSection_1.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:9001
+               Signature=ED25DEF24A4103F156C750A0292C9DFC
+            End Object
+            UniqueTrackName="BlurStrength"
+            PropertyName="BlurStrength"
+            PropertyPath="BlurStrength"
+            Sections(0)=MovieSceneFloatSection'"MovieSceneFloatSection_1"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "BackgroundBlur:BlurStrength", "Blur Strength")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=CB10A4E94A30AF4969292AB812F169D2
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_2"
+            Begin Object Name="MovieScene2DTransformSection_2"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=39000)),Values=((Value=136.786011,Tangent=(ArriveTangent=-0.009253,LeaveTangent=-0.009253),TangentMode=RCTM_User),()))
+               Translation(1)=(Times=((),(Value=60000)),Values=((),()))
+               Rotation=(Times=((Value=60000)),Values=(()))
+               Scale(0)=(Times=((Value=60000)),Values=((Value=1.000000)))
+               Scale(1)=(Times=((Value=60000)),Values=((Value=1.000000)))
+               Shear(0)=(Times=((Value=60000)),Values=(()))
+               Shear(1)=(Times=((Value=60000)),Values=(()))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_2.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_2.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:60001
+               Signature=88CA3B2B4CD66D385675E5AE6A807A9D
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_2"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=1905B5A24896C7A8E2D27FB8AB0AD042
+         End Object
+         Begin Object Name="MovieSceneColorTrack_4"
+            Begin Object Name="MovieSceneColorSection_4"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               AlphaCurve=(Times=((),(Value=30000)),Values=((),(Value=1.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_4.MovieSceneColorSection_4.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_4.MovieSceneColorSection_4.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:30001
+               Signature=7B2AD1D74136693EFFED2EA782451BD1
+            End Object
+            UniqueTrackName="ContentColorAndOpacity"
+            PropertyName="ContentColorAndOpacity"
+            PropertyPath="ContentColorAndOpacity"
+            Sections(0)=MovieSceneColorSection'"MovieSceneColorSection_4"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Border:ContentColorAndOpacity", "Content Color and Opacity")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=F59D33E043251586FDE54289874BCD44
+         End Object
+         Begin Object Name="MovieSceneColorTrack_3"
+            Begin Object Name="MovieSceneColorSection_3"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               RedCurve=(Times=((),(Value=60000)),Values=((),()))
+               GreenCurve=(Times=((),(Value=60000)),Values=((Value=0.400000),(Value=0.400000)))
+               BlueCurve=(Times=((),(Value=60000)),Values=((Value=0.831373),(Value=0.831373)))
+               AlphaCurve=(Times=((),(Value=60000)),Values=((),(Value=1.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_3.MovieSceneColorSection_3.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_3.MovieSceneColorSection_3.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:60001
+               Signature=429427AF4B299E6EBC9F9B8C1FDD8883
+            End Object
+            UniqueTrackName="BrushColor"
+            PropertyName="BrushColor"
+            PropertyPath="BrushColor"
+            Sections(0)=MovieSceneColorSection'"MovieSceneColorSection_3"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Border:BrushColor", "Brush Color")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=088385D3466C422D0A087F8E2F131D7B
+         End Object
+         Begin Object Name="MovieSceneColorTrack_2"
+            Begin Object Name="MovieSceneColorSection_2"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               RedCurve=(Times=(()),Values=((Value=1.000000)))
+               GreenCurve=(Times=(()),Values=((Value=1.000000)))
+               BlueCurve=(Times=(()),Values=((Value=1.000000)))
+               AlphaCurve=(Times=((),(),(Value=30000)),Values=((Tangent=(ArriveTangent=0.000033)),(Tangent=(ArriveTangent=0.000033,LeaveTangent=0.000033)),(Value=1.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_2.MovieSceneColorSection_2.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_2.MovieSceneColorSection_2.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:45001
+               Signature=0251F512449A48E3C04DBA8BA341AA68
+            End Object
+            UniqueTrackName="BrushColor"
+            PropertyName="BrushColor"
+            PropertyPath="BrushColor"
+            Sections(0)=MovieSceneColorSection'"MovieSceneColorSection_2"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Border:BrushColor", "Brush Color")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=458CA035458DAFE2BEA81D9E2007DB3B
+         End Object
+         Begin Object Name="MovieSceneFloatTrack_0"
+            Begin Object Name="MovieSceneFloatSection_0"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               FloatCurve=(Times=((),(Value=18000)),Values=((),(Value=10.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:18001
+               Signature=FDF07E1049CA81A03506819E2C6724DA
+            End Object
+            UniqueTrackName="BlurStrength"
+            PropertyName="BlurStrength"
+            PropertyPath="BlurStrength"
+            Sections(0)=MovieSceneFloatSection'"MovieSceneFloatSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "BackgroundBlur:BlurStrength", "Blur Strength")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=D189B0924CA036975A5212A1C1941C76
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_1"
+            Begin Object Name="MovieScene2DTransformSection_1"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               Translation(0)=(Times=((Value=-6001),(),(Value=33000)),Values=((),(Value=44.404003),()))
+               Translation(1)=(Times=((Value=-6001)),Values=(()))
+               Rotation=(Times=((Value=-6001)),Values=(()))
+               Scale(0)=(Times=((Value=-6001)),Values=((Value=1.000000)))
+               Scale(1)=(Times=((Value=-6001)),Values=((Value=1.000000)))
+               Shear(0)=(Times=((Value=-6001)),Values=(()))
+               Shear(1)=(Times=((Value=-6001)),Values=(()))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1.EaseOutFunction')
+               SectionRange=Inclusive:-6001:Exclusive:33001
+               Signature=3C2405C2418C7A124BA1DEAEF2B46C67
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_1"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=4688C7234FC5FE686F563A8492E5CB60
+         End Object
+         Begin Object Name="MovieSceneColorTrack_1"
+            Begin Object Name="MovieSceneColorSection_1"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               RedCurve=(Times=(()),Values=((Value=1.000000)))
+               GreenCurve=(Times=(()),Values=((Value=1.000000)))
+               BlueCurve=(Times=(()),Values=((Value=1.000000)))
+               AlphaCurve=(Times=((),(Value=48000)),Values=((),(Value=1.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_1.MovieSceneColorSection_1.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_1.MovieSceneColorSection_1.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:60001
+               Signature=4DBAF4E04CFEA01DA8ECD2A7A02C5E30
+            End Object
+            UniqueTrackName="ColorAndOpacity"
+            PropertyName="ColorAndOpacity"
+            PropertyPath="ColorAndOpacity"
+            Sections(0)=MovieSceneColorSection'"MovieSceneColorSection_1"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "UserWidget:ColorAndOpacity", "Color and Opacity")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=D1BFD6F049B4FF4F59114591CBEA85C0
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_0"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=30000)),Values=((Value=-8.974000,Tangent=(ArriveTangent=0.000964,LeaveTangent=0.000964),TangentMode=RCTM_User),()))
+               Translation(1)=(Times=(()),Values=(()))
+               Rotation=(Times=(()),Values=(()))
+               Scale(0)=(Times=(()),Values=((Value=1.000000)))
+               Scale(1)=(Times=(()),Values=((Value=1.000000)))
+               Shear(0)=(Times=(()),Values=(()))
+               Shear(1)=(Times=(()),Values=(()))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:-9001:Exclusive:60001
+               Signature=6A99A7644002E592F54EF5874026D7CC
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=1490A8EE49AE7A6BC788E49E7C894E3F
+         End Object
+         Begin Object Name="MovieSceneColorTrack_0"
+            Begin Object Name="MovieSceneColorSection_0"
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Begin Object Name="EaseInFunction"
+               End Object
+               RedCurve=(Times=(()),Values=((Value=1.000000)))
+               GreenCurve=(Times=(()),Values=((Value=1.000000)))
+               BlueCurve=(Times=(()),Values=((Value=1.000000)))
+               AlphaCurve=(Times=((),(Value=30000),(Value=60000)),Values=((),(Value=1.000000,Tangent=(ArriveTangent=0.000017,LeaveTangent=0.000017)),(Value=1.000000)))
+               EvalOptions=(CompletionMode=KeepState)
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'SettingsUI:Init.Init.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:30001
+               Signature=390822F84804D0ECE4F1218F38AF2446
+            End Object
+            UniqueTrackName="ColorAndOpacity"
+            PropertyName="ColorAndOpacity"
+            PropertyPath="ColorAndOpacity"
+            Sections(0)=MovieSceneColorSection'"MovieSceneColorSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "TextBlock:ColorAndOpacity", "Color and Opacity")
+            EvalOptions=(bEvalNearestSection=True)
+            Signature=8DD466B34A3512A2573F29BA194DD94A
+         End Object
+         Possessables(0)=(Guid=FF561F2944A3863D8B1B2B88DF5D0F11,Name="SettingsTitle",PossessedObjectClass=Class'"/Script/UMG.TextBlock"')
+         Possessables(1)=(Guid=485493734BC2BAA3A2E94996FF306B2F,Name="CategorySelect",PossessedObjectClass=WidgetBlueprintGeneratedClass'"/AutoSettings/RadioSelect/VerticalRadioSelect.VerticalRadioSelect_C"')
+         Possessables(2)=(Guid=20FCE77C42BF53AD4096718CA6308C95,Name="BackgroundBlur_2",PossessedObjectClass=Class'"/Script/UMG.BackgroundBlur"')
+         Possessables(3)=(Guid=B6D5D78040752B176A1D92B751D8DBBB,Name="Categories",PossessedObjectClass=Class'"/Script/UMG.Border"')
+         Possessables(4)=(Guid=19811ABF477AA0F3CE5A788E22C108DB,Name="TitleBorder",PossessedObjectClass=Class'"/Script/UMG.Border"')
+         Possessables(5)=(Guid=313982464D2DFA6CA8DF2491DB80A1CA,Name="BackgroundBlur_3",PossessedObjectClass=Class'"/Script/UMG.BackgroundBlur"')
+         Possessables(6)=(Guid=69EEF281413B945E6C90B798357B87AA,Name="Settings",PossessedObjectClass=Class'"/Script/UMG.Border"')
+         Possessables(7)=(Guid=0A6435044F6B668496B2E39AAC6FCB17,Name="ScrollBox_0",PossessedObjectClass=Class'"/Script/UMG.ScrollBox"')
+         ObjectBindings(0)=(ObjectGuid=FF561F2944A3863D8B1B2B88DF5D0F11,BindingName="SettingsTitle",Tracks=(MovieSceneColorTrack'"MovieSceneColorTrack_0"',MovieScene2DTransformTrack'"MovieScene2DTransformTrack_0"'))
+         ObjectBindings(1)=(ObjectGuid=485493734BC2BAA3A2E94996FF306B2F,BindingName="CategorySelect",Tracks=(MovieSceneColorTrack'"MovieSceneColorTrack_1"',MovieScene2DTransformTrack'"MovieScene2DTransformTrack_1"'))
+         ObjectBindings(2)=(ObjectGuid=20FCE77C42BF53AD4096718CA6308C95,BindingName="BackgroundBlur_2",Tracks=(MovieSceneFloatTrack'"MovieSceneFloatTrack_0"'))
+         ObjectBindings(3)=(ObjectGuid=B6D5D78040752B176A1D92B751D8DBBB,BindingName="Categories",Tracks=(MovieSceneColorTrack'"MovieSceneColorTrack_2"'))
+         ObjectBindings(4)=(ObjectGuid=19811ABF477AA0F3CE5A788E22C108DB,BindingName="Border_0",Tracks=(MovieSceneColorTrack'"MovieSceneColorTrack_3"',MovieSceneColorTrack'"MovieSceneColorTrack_4"',MovieScene2DTransformTrack'"MovieScene2DTransformTrack_2"'))
+         ObjectBindings(5)=(ObjectGuid=313982464D2DFA6CA8DF2491DB80A1CA,BindingName="BackgroundBlur_3",Tracks=(MovieSceneFloatTrack'"MovieSceneFloatTrack_1"'))
+         ObjectBindings(6)=(ObjectGuid=69EEF281413B945E6C90B798357B87AA,BindingName="Settings",Tracks=(MovieSceneColorTrack'"MovieSceneColorTrack_5"',MovieSceneColorTrack'"MovieSceneColorTrack_6"'))
+         ObjectBindings(7)=(ObjectGuid=0A6435044F6B668496B2E39AAC6FCB17,BindingName="ScrollBox_0",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_4"'))
+         PlaybackRange=Inclusive:-9001:Exclusive:60001
+         DisplayRate=(Numerator=20000,Denominator=1000)
+         EditorData=(ExpansionStates=(("FF561F2944A3863D8B1B2B88DF5D0F11", (bExpanded=False)),("FF561F2944A3863D8B1B2B88DF5D0F11.ColorAndOpacity", ()),("FF561F2944A3863D8B1B2B88DF5D0F11.RenderTransform", ()),("FF561F2944A3863D8B1B2B88DF5D0F11.RenderTransform.Translation", ()),("485493734BC2BAA3A2E94996FF306B2F", (bExpanded=False)),("485493734BC2BAA3A2E94996FF306B2F.ColorAndOpacity", ()),("485493734BC2BAA3A2E94996FF306B2F.RenderTransform", ()),("485493734BC2BAA3A2E94996FF306B2F.RenderTransform.Translation", ()),("20FCE77C42BF53AD4096718CA6308C95", (bExpanded=False)),("B6D5D78040752B176A1D92B751D8DBBB", (bExpanded=False)),("B6D5D78040752B176A1D92B751D8DBBB.BrushColor", ()),("19811ABF477AA0F3CE5A788E22C108DB", ()),("19811ABF477AA0F3CE5A788E22C108DB.BrushColor", (bExpanded=False)),("19811ABF477AA0F3CE5A788E22C108DB.ContentColorAndOpacity", ()),("19811ABF477AA0F3CE5A788E22C108DB.RenderTransform", ()),("19811ABF477AA0F3CE5A788E22C108DB.RenderTransform.Translation", ()),("313982464D2DFA6CA8DF2491DB80A1CA", ()),("69EEF281413B945E6C90B798357B87AA", (bExpanded=False)),("69EEF281413B945E6C90B798357B87AA.BrushColor", ()),("69EEF281413B945E6C90B798357B87AA.ContentColorAndOpacity", ()),("313982464D2DFA6CA8DF2491DB80A1CA.RenderTransform", (bExpanded=False)),("313982464D2DFA6CA8DF2491DB80A1CA.RenderTransform.Translation", ()),("0A6435044F6B668496B2E39AAC6FCB17", (bExpanded=False)),("0A6435044F6B668496B2E39AAC6FCB17.RenderTransform", ()),("0A6435044F6B668496B2E39AAC6FCB17.RenderTransform.Translation", ())),ViewStart=-0.396821,ViewEnd=1.889814,WorkStart=-0.500000,WorkEnd=5.500000)
+         Signature=E9E50D8F40E37CBA1880EBA47BCC46E9
+      End Object
+      MovieScene=MovieScene'"Init"'
+      AnimationBindings(0)=(WidgetName="SettingsTitle",AnimationGuid=FF561F2944A3863D8B1B2B88DF5D0F11)
+      AnimationBindings(1)=(WidgetName="CategorySelect",AnimationGuid=485493734BC2BAA3A2E94996FF306B2F)
+      AnimationBindings(2)=(WidgetName="BackgroundBlur_2",AnimationGuid=20FCE77C42BF53AD4096718CA6308C95)
+      AnimationBindings(3)=(WidgetName="Categories",AnimationGuid=B6D5D78040752B176A1D92B751D8DBBB)
+      AnimationBindings(4)=(WidgetName="TitleBorder",AnimationGuid=19811ABF477AA0F3CE5A788E22C108DB)
+      AnimationBindings(5)=(WidgetName="BackgroundBlur_3",AnimationGuid=313982464D2DFA6CA8DF2491DB80A1CA)
+      AnimationBindings(6)=(WidgetName="Settings",AnimationGuid=69EEF281413B945E6C90B798357B87AA)
+      AnimationBindings(7)=(WidgetName="ScrollBox_0",AnimationGuid=0A6435044F6B668496B2E39AAC6FCB17)
+      bLegacyFinishOnStop=False
+      Signature=F223980E4DBE0C48F667EEB1724B0161
+   End Object
+   Begin Object Name="CloseRequested"
+      Begin Object Name="K2Node_FunctionEntry_618"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="CloseRequested")
+         bIsEditable=True
+         NodeGuid=F9B221EA400FD0D2D7DEDE869417047F
+         CustomProperties Pin (PinId=6E4080F64AFBDC799219B39C25F63A07,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/UMGEditor.WidgetGraphSchema"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_618"'
+      bEditable=False
+      GraphGuid=35B2ADFE4E0C02ADD29622AA833CDE90
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="GameplaySettingsPage"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="InputSettingsPage"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="AudioSettingsPage"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="VideoSettingsPage"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="CategorySwitcher"
+         Begin Object Name="WidgetSwitcherSlot_8"
+            Parent=WidgetSwitcher'"SettingsUI:WidgetTree.CategorySwitcher"'
+            Content=GameplaySettingsPage_C'"SettingsUI:WidgetTree.GameplaySettingsPage"'
+         End Object
+         Begin Object Name="WidgetSwitcherSlot_7"
+            Parent=WidgetSwitcher'"SettingsUI:WidgetTree.CategorySwitcher"'
+            Content=InputSettingsPage_C'"SettingsUI:WidgetTree.InputSettingsPage"'
+         End Object
+         Begin Object Name="WidgetSwitcherSlot_6"
+            Parent=WidgetSwitcher'"SettingsUI:WidgetTree.CategorySwitcher"'
+            Content=AudioSettingsPage_C'"SettingsUI:WidgetTree.AudioSettingsPage"'
+         End Object
+         Begin Object Name="WidgetSwitcherSlot_4"
+            Parent=WidgetSwitcher'"SettingsUI:WidgetTree.CategorySwitcher"'
+            Content=VideoSettingsPage_C'"SettingsUI:WidgetTree.VideoSettingsPage"'
+         End Object
+         Slots(0)=WidgetSwitcherSlot'"WidgetSwitcherSlot_4"'
+         Slots(1)=WidgetSwitcherSlot'"WidgetSwitcherSlot_6"'
+         Slots(2)=WidgetSwitcherSlot'"WidgetSwitcherSlot_7"'
+         Slots(3)=WidgetSwitcherSlot'"WidgetSwitcherSlot_8"'
+         bExpandedInDesigner=True
+         DisplayLabel="CategorySwitcher"
+      End Object
+      Begin Object Name="Settings"
+         Begin Object Name="BorderSlot_0"
+            Padding=(Left=3.000000,Top=20.000000,Right=3.000000,Bottom=20.000000)
+            Parent=Border'"SettingsUI:WidgetTree.Settings"'
+            Content=WidgetSwitcher'"SettingsUI:WidgetTree.CategorySwitcher"'
+         End Object
+         Padding=(Left=3.000000,Top=20.000000,Right=3.000000,Bottom=20.000000)
+         Background=(ImageSize=(X=16.000000,Y=16.000000),Margin=(Left=0.400000,Top=0.400000,Right=0.400000,Bottom=0.400000),TintColor=(SpecifiedColor=(R=0.013020,G=0.013020,B=0.020000,A=0.700000)))
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         bExpandedInDesigner=True
+         DisplayLabel="Settings"
+      End Object
+      Begin Object Name="BackgroundBlur_3"
+         Begin Object Name="BackgroundBlurSlot_1"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            Parent=BackgroundBlur'"SettingsUI:WidgetTree.BackgroundBlur_3"'
+            Content=Border'"SettingsUI:WidgetTree.Settings"'
+         End Object
+         BlurStrength=10.000000
+         Slots(0)=BackgroundBlurSlot'"BackgroundBlurSlot_1"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Spacer_0"
+         Size=(X=1.000000,Y=5.000000)
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="CategorySelect"
+         Options(0)=(Label=NSLOCTEXT("[A81B0C3A493F64E67AD854BE4D91750E]", "9FA61F91483CF3C6F22938AF7605898C", "Video"),Value="0")
+         Options(1)=(Label=NSLOCTEXT("[A81B0C3A493F64E67AD854BE4D91750E]", "AA17E0564B24C4860939B3AF90FE6CEE", "Audio"),Value="1")
+         Options(2)=(Label=NSLOCTEXT("[A81B0C3A493F64E67AD854BE4D91750E]", "9C22C78749A821D8ED1F3FA253E78961", "Input"),Value="2")
+         Options(3)=(Label=NSLOCTEXT("[A81B0C3A493F64E67AD854BE4D91750E]", "13B9A40942B269A6D139388F126B85C2", "Gameplay"),Value="3")
+         RadioButtonClass=WidgetBlueprintGeneratedClass'"/Game/UI/CategoryButton.CategoryButton_C"'
+         PaletteCategory=NSLOCTEXT("UMG", "UserCreated", "User Created")
+         bExpandedInDesigner=True
+         DisplayLabel="CategorySelect"
+      End Object
+      Begin Object Name="VerticalBox_4"
+         Begin Object Name="VerticalBoxSlot_11"
+            Parent=VerticalBox'"SettingsUI:WidgetTree.VerticalBox_4"'
+            Content=Spacer'"SettingsUI:WidgetTree.Spacer_0"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_0"
+            Parent=VerticalBox'"SettingsUI:WidgetTree.VerticalBox_4"'
+            Content=VerticalRadioSelect_C'"SettingsUI:WidgetTree.CategorySelect"'
+         End Object
+         Slots(0)=VerticalBoxSlot'"VerticalBoxSlot_0"'
+         Slots(1)=VerticalBoxSlot'"VerticalBoxSlot_11"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Categories"
+         Begin Object Name="BorderSlot_7"
+            Padding=(Left=3.000000,Top=3.000000,Right=3.000000,Bottom=3.000000)
+            VerticalAlignment=VAlign_Top
+            Parent=Border'"SettingsUI:WidgetTree.Categories"'
+            Content=VerticalBox'"SettingsUI:WidgetTree.VerticalBox_4"'
+         End Object
+         VerticalAlignment=VAlign_Top
+         Padding=(Left=3.000000,Top=3.000000,Right=3.000000,Bottom=3.000000)
+         Background=(ImageSize=(X=16.000000,Y=16.000000),Margin=(Left=0.400000,Top=0.400000,Right=0.400000,Bottom=0.400000),TintColor=(SpecifiedColor=(R=0.013028,G=0.013028,B=0.020000,A=0.700000)))
+         Slots(0)=BorderSlot'"BorderSlot_7"'
+         bExpandedInDesigner=True
+         DisplayLabel="Categories"
+      End Object
+      Begin Object Name="BackgroundBlur_2"
+         Begin Object Name="BackgroundBlurSlot_0"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            Parent=BackgroundBlur'"SettingsUI:WidgetTree.BackgroundBlur_2"'
+            Content=Border'"SettingsUI:WidgetTree.Categories"'
+         End Object
+         BlurStrength=10.000000
+         Slots(0)=BackgroundBlurSlot'"BackgroundBlurSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="ContentPadded"
+         Begin Object Name="CanvasPanelSlot_11"
+            LayoutData=(Offsets=(Left=230.000000,Right=0.000000,Bottom=0.000000),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent=CanvasPanel'"SettingsUI:WidgetTree.ContentPadded"'
+            Content=BackgroundBlur'"SettingsUI:WidgetTree.BackgroundBlur_3"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_10"
+            LayoutData=(Offsets=(Right=200.000000,Bottom=600.000000))
+            bAutoSize=True
+            Parent=CanvasPanel'"SettingsUI:WidgetTree.ContentPadded"'
+            Content=BackgroundBlur'"SettingsUI:WidgetTree.BackgroundBlur_2"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_10"'
+         Slots(1)=CanvasPanelSlot'"CanvasPanelSlot_11"'
+         bExpandedInDesigner=True
+         DisplayLabel="ContentPadded"
+      End Object
+      Begin Object Name="Spacer_8"
+         Size=(X=1.000000,Y=5.000000)
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="CloseButton"
+         WidgetStyle=(Normal=(ImageSize=(X=24.000000,Y=24.000000),ResourceObject=Texture2D'"/Game/UI/CloseIcon.CloseIcon"',DrawAs=Image),Hovered=(ImageSize=(X=24.000000,Y=24.000000),TintColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.700000)),ResourceObject=Texture2D'"/Game/UI/CloseIcon.CloseIcon"',ResourceName="../../../Engine/Content/Slate/Common/Button.png",DrawAs=Image),Pressed=(ImageSize=(X=24.000000,Y=24.000000),TintColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.300000)),ResourceObject=Texture2D'"/Game/UI/CloseIcon.CloseIcon"',ResourceName="../../../Engine/Content/Slate/Common/Button.png",DrawAs=Image),Disabled=(TintColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000))),NormalPadding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000),PressedPadding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000))
+         bExpandedInDesigner=True
+         DisplayLabel="CloseButton"
+      End Object
+      Begin Object Name="SettingsTitle"
+         Text=NSLOCTEXT("[A81B0C3A493F64E67AD854BE4D91750E]", "D11707B14AE2D61B91E9728A48D471BB", "SETTINGS")
+         Font=(TypefaceFontName="Regular",Size=14)
+         bExpandedInDesigner=True
+         DisplayLabel="SettingsTitle"
+      End Object
+      Begin Object Name="HorizontalBox_1"
+         Begin Object Name="HorizontalBoxSlot_2"
+            Size=(SizeRule=Fill)
+            HorizontalAlignment=HAlign_Right
+            Parent=HorizontalBox'"SettingsUI:WidgetTree.HorizontalBox_1"'
+            Content=Button'"SettingsUI:WidgetTree.CloseButton"'
+         End Object
+         Begin Object Name="HorizontalBoxSlot_0"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=HorizontalBox'"SettingsUI:WidgetTree.HorizontalBox_1"'
+            Content=TextBlock'"SettingsUI:WidgetTree.SettingsTitle"'
+         End Object
+         Slots(0)=HorizontalBoxSlot'"HorizontalBoxSlot_0"'
+         Slots(1)=HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TitleBorder"
+         Begin Object Name="BorderSlot_0"
+            Padding=(Left=10.000000,Top=4.000000,Right=10.000000,Bottom=4.000000)
+            Parent=Border'"SettingsUI:WidgetTree.TitleBorder"'
+            Content=HorizontalBox'"SettingsUI:WidgetTree.HorizontalBox_1"'
+         End Object
+         ContentColorAndOpacity=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Padding=(Left=10.000000,Top=4.000000,Right=10.000000,Bottom=4.000000)
+         BrushColor=(R=0.000000,G=0.400000,B=0.831373,A=1.000000)
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         bExpandedInDesigner=True
+         DisplayLabel="TitleBorder"
+      End Object
+      Begin Object Name="VerticalBox_0"
+         Begin Object Name="VerticalBoxSlot_0"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'"SettingsUI:WidgetTree.VerticalBox_0"'
+            Content=CanvasPanel'"SettingsUI:WidgetTree.ContentPadded"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_2"
+            Parent=VerticalBox'"SettingsUI:WidgetTree.VerticalBox_0"'
+            Content=Spacer'"SettingsUI:WidgetTree.Spacer_8"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_1"
+            Parent=VerticalBox'"SettingsUI:WidgetTree.VerticalBox_0"'
+            Content=Border'"SettingsUI:WidgetTree.TitleBorder"'
+         End Object
+         Slots(0)=VerticalBoxSlot'"VerticalBoxSlot_1"'
+         Slots(1)=VerticalBoxSlot'"VerticalBoxSlot_2"'
+         Slots(2)=VerticalBoxSlot'"VerticalBoxSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="CanvasPanel_5"
+         Begin Object Name="CanvasPanelSlot_3"
+            LayoutData=(Offsets=(Left=20.000000,Top=20.000000,Right=20.000000,Bottom=20.000000),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent=CanvasPanel'"SettingsUI:WidgetTree.CanvasPanel_5"'
+            Content=VerticalBox'"SettingsUI:WidgetTree.VerticalBox_0"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_3"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="CanvasPanel_1"
+         Begin Object Name="CanvasPanelSlot_0"
+            LayoutData=(Offsets=(Right=1300.000000,Bottom=800.000000),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"SettingsUI:WidgetTree.CanvasPanel_1"'
+            Content=CanvasPanel'"SettingsUI:WidgetTree.CanvasPanel_5"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      RootWidget=CanvasPanel'"CanvasPanel_1"'
+   End Object
+   Animations(0)=WidgetAnimation'"Init"'
+   PaletteCategory="AutoSettings Example UI"
+   TickPrediction=OnDemand
+   TickPredictionReason="Anim"
+   WidgetTree="WidgetTree"
+   ParentClass=Class'"/Script/UMG.UserWidget"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   DelegateSignatureGraphs(0)=EdGraph'"CloseRequested"'
+   NewVariables(0)=(VarName="CloseRequested",VarGuid=177D5B2C45A5D84BF90A0990CB672F97,VarType=(PinCategory="mcdelegate"),FriendlyName="Close Requested",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=17592454545413)
+   CategorySorting(0)="Settings UI"
+   CategorySorting(1)="Appearance"
+   CategorySorting(2)="Interaction"
+   CategorySorting(3)="Input"
+   CategorySorting(4)="Layout"
+   CategorySorting(5)="Behavior"
+   CategorySorting(6)="Performance"
+   CategorySorting(7)="Render Transform"
+   CategorySorting(8)="Navigation"
+   CategorySorting(9)="Default"
+   CategorySorting(10)="Animations"
+   CategorySorting(11)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/UI/SettingsUI.SettingsUI:EventGraph,SavedViewOffset=(X=-1913.015137,Y=8.854736),SavedZoomAmount=0.250000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'"SettingsUI_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=8A41CEB04AF49342A597749B0CA032F5
+End Object
