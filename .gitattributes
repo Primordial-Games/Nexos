@@ -8,6 +8,7 @@
 # Anything in `/RawContent` dir. [You create this directory in your projects root folder]
 /RawContent/**/* filter=lfs diff=lfs merge=lfs -text
 # Raw Content types
+*.avi filter=lfs diff=lfs merge=lfs -text
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.duf filter=lfs diff=lfs merge=lfs -text
 *.bin.fbx filter=lfs diff=lfs merge=lfs -text
