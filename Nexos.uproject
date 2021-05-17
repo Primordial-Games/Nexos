@@ -114,6 +114,10 @@
 			"Name": "SteamParty",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f2b6aed938d746a58802720a8a6487cf"
+		},
+		{
+			"Name": "GamepadUMGPlugin",
+			"Enabled": true
 		}
 	]
 }

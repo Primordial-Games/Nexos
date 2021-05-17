@@ -47,6 +47,9 @@ class NEXOS_API ANexosPlayerControllerBase : public APlayerController
 		void OpenStarChart();
 
 	UFUNCTION()
+        void OpenGameMenu();
+
+	UFUNCTION()
 		void PressedStarChart();
 
 	UFUNCTION()
@@ -64,18 +67,33 @@ class NEXOS_API ANexosPlayerControllerBase : public APlayerController
 
 	UPROPERTY(BlueprintReadWrite, Category = UI)
 		UUserWidget* StarChartRef;
+		
+	UPROPERTY(EditDefaultsOnly, Category = "Player UI")
+       	TSubclassOf<class UUserWidget> StarChartIcon;
+        
+      UPROPERTY(BlueprintReadWrite, Category = UI)
+        UUserWidget* StarChartIconRef;
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Player UI")
 		TSubclassOf<class UUserWidget> CharacterMenu;
 
 	UPROPERTY(BlueprintReadWrite, Category = UI)
 		UUserWidget* CharacterMenuRef;
+		
+	UPROPERTY(EditDefaultsOnly, Category = "Player UI")
+      	TSubclassOf<class UUserWidget> GameMenuClass;
+       
+   	UPROPERTY(BlueprintReadWrite, Category = UI)
+      	UUserWidget* GameMenuWidget;
 
 	UPROPERTY(BlueprintReadWrite, Category = UI)
 		bool bIsInCharacterMenu;
 
 	UPROPERTY(BlueprintReadWrite, Category = UI)
 		bool bIsInStarChart;
+
+	UPROPERTY(BlueprintReadWrite, Category = UI)
+		bool bIsInGameMenu;
 
 	UPROPERTY(BlueprintReadWrite, Category = PlayFab)
 		UPlayFabJsonObject* EntityKey;
@@ -85,7 +103,7 @@ class NEXOS_API ANexosPlayerControllerBase : public APlayerController
 	
 	UPROPERTY(BlueprintReadWrite, Category = PlayFab)
 	    FString Username;
-	    
+	
 	bool bStarChartPressed;
 
 	FTimerHandle StarChartTimer;

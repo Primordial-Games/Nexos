@@ -96,6 +96,15 @@ enum class ENexosArmorSlot : uint8
 	NeuralLink,
 };
 
+UENUM(Blueprintable)
+enum class ECusrsoType : uint8
+{
+	Pointer,
+	PointerHighlight,
+	Controller,
+	ControllerHighlight,
+};
+
 class FNexosGameModuleImpl : public IModuleInterface
 {
 public:
